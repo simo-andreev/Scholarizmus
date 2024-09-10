@@ -1,0 +1,67 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <vector
+            android:width="100dp"
+            android:height="100dp"
+            android:viewportWidth="100"
+            android:viewportHeight="100">
+
+            <path
+                android:fillAlpha="0.85"
+                android:fillColor="@android:color/holo_orange_dark"
+                android:pathData="
+                   M 0, 0
+                   h 100
+                   v 100
+                   h -100
+                   z
+                "
+                android:strokeWidth="2"
+                android:strokeColor="@color/logo_gradient_start" />
+        </vector>
+    </item>
+    <item>
+        <vector
+            android:width="100dp"
+            android:height="100dp"
+            android:viewportWidth="100"
+            android:viewportHeight="100">
+
+            <path
+                android:fillColor="@android:color/white"
+                android:pathData="
+                   M 10, 50
+                   A 40, 40 0 1,1 90, 50
+                   A 40, 40 0 0,1 10, 50
+                "
+                android:strokeWidth="2"
+                android:strokeColor="@color/logo_gradient_end"
+                android:strokeLineCap="round" />
+
+        </vector>
+    </item>
+
+    <item>
+        <vector
+            android:alpha="0.56"
+            android:width="100dp"
+            android:height="100dp"
+            android:viewportWidth="200"
+            android:viewportHeight="200">
+
+            <path
+                android:fillColor="@android:color/holo_blue_bright"
+                android:pathData="
+                    M  25, 50
+                    Q  50,150
+                       75,100
+                    T 150,150
+                "
+                android:strokeWidth="2"
+                android:strokeColor="@color/teal_700"
+                android:strokeLineCap="round" />
+
+        </vector>
+    </item>
+
+</layer-list>
